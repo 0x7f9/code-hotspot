@@ -1,0 +1,22 @@
+[package]
+name = "code-hotspot"
+version = "0.1.0"
+edition = "2021"
+description = "Named start and stop timers for measuring pipeline hotspots"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["profiling", "timer", "performance", "hotspot"]
+categories = ["development-tools::profiling"]
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE",
+]
+
+[features]
+default = []
+enabled = []
+
+[package.metadata.docs.rs]
+features = ["enabled"]
